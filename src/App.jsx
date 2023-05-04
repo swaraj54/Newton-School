@@ -29,6 +29,8 @@ import SplittingCompo from './components/SplittingCompo';
 import Composition from './components/Composition';
 import FormsModerate from './components/FormsModerate';
 import FormsExpert from './components/FormsExpert';
+import ValidationReact from './components/ValidationReact';
+import PracticeValidationReact from './components/PracticeValidationReact';
 
 function App() {
 
@@ -61,6 +63,12 @@ function App() {
         <Route exact path="/Composition" element={<Composition />} />
         <Route exact path="/Forms-moderate" element={<FormsModerate />} />
         <Route exact path="/Forms-expert" element={<FormsExpert />} />
+        <Route exact path="/validation-react" element={<ValidationReact />} />
+        <Route exact path="/Practice-validation-react" element={<PracticeValidationReact />} />
+        {/* // <Route exact path="/" element={< />} /> */}
+        {/* // <Route exact path="/" element={< />} /> */}
+        {/* // <Route exact path="/" element={< />} /> */}
+        {/* // <Route exact path="/" element={< />} /> */}
         {/* // <Route exact path="/" element={< />} /> */}
         {/* // <Route exact path="/" element={< />} /> */}
 
