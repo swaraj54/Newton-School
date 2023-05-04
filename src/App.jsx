@@ -1,5 +1,5 @@
 import logo from './logo.svg';
-import './App.css';
+// import './App.css';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 
@@ -25,6 +25,10 @@ import ConditionalReturnStatement from './components/ConditionalReturnStatement'
 import AddingDynamicStyles from './components/AddingDynamicStyles';
 import SettingCSSClassesDynamically from './components/SettingCSSClassesDynamically';
 import AddingnormalJSlogic from './components/AddingnormalJSlogic';
+import SplittingCompo from './components/SplittingCompo';
+import Composition from './components/Composition';
+import FormsModerate from './components/FormsModerate';
+import FormsExpert from './components/FormsExpert';
 
 function App() {
 
@@ -50,9 +54,15 @@ function App() {
         <Route exact path='/stateful-list' element={<StatefulList />} />
         <Route exact path='/Outputting-Conditional-Content' element={<OutputtingConditionalContent />} />
         <Route exact path='/Conditional-Return-statement' element={<ConditionalReturnStatement />} />
-        <Route exact path='/Adding-Dynamic-Styles' element={<AddingDynamicStyles />}/>
+        <Route exact path='/Adding-Dynamic-Styles' element={<AddingDynamicStyles />} />
         <Route exact path='/Setting-CSS-Classes-Dynamically' element={<SettingCSSClassesDynamically />} />
-        <Route exact path="/Adding-normal-JS-logic" element={<AddingnormalJSlogic />}/>
+        <Route exact path="/Adding-normal-JS-logic" element={<AddingnormalJSlogic />} />
+        <Route exact path="/Spilliting-compo" element={<SplittingCompo />} />
+        <Route exact path="/Composition" element={<Composition />} />
+        <Route exact path="/Forms-moderate" element={<FormsModerate />} />
+        <Route exact path="/Forms-expert" element={<FormsExpert />} />
+        {/* // <Route exact path="/" element={< />} /> */}
+        {/* // <Route exact path="/" element={< />} /> */}
 
       </Routes>
 
