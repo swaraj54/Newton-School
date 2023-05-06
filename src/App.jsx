@@ -31,6 +31,13 @@ import FormsModerate from './components/FormsModerate';
 import FormsExpert from './components/FormsExpert';
 import ValidationReact from './components/ValidationReact';
 import PracticeValidationReact from './components/PracticeValidationReact';
+import FirstClassComponent from './components/06-05-2023/FirstClassComponent';
+import PropsClassComponent from './components/06-05-2023/PropsClassComponent';
+import DynamicUsePropsClass from './components/06-05-2023/DynamicUsePropsClass';
+import CounterAppClass from './components/06-05-2023/CounterAppClass';
+import ConstructorClass from './components/06-05-2023/ConstructorClass';
+import ComponentDidMount from './components/06-05-2023/ComponentDidMount';
+import ShouldComponentUpdate from './components/06-05-2023/ShouldComponentUpdate';
 
 function App() {
 
@@ -65,7 +72,13 @@ function App() {
         <Route exact path="/Forms-expert" element={<FormsExpert />} />
         <Route exact path="/validation-react" element={<ValidationReact />} />
         <Route exact path="/Practice-validation-react" element={<PracticeValidationReact />} />
-        {/* // <Route exact path="/" element={< />} /> */}
+        <Route exact path="/first-class-component" element={<FirstClassComponent />} />
+        <Route exact path="/props-class-component" element={<PropsClassComponent name="Newton School" age="10" />} />
+        <Route exact path="/dynamic-use-props-class" element={<DynamicUsePropsClass initialCount={5} />} />
+        <Route exact path="/counter-app-class" element={<CounterAppClass />} />
+        <Route exact path="/Constructor-class" element={<ConstructorClass />} />
+        <Route exact path="/component-did-mount" element={<ComponentDidMount />} />
+        <Route exact path="/should-component-update" element={<ShouldComponentUpdate />} />
         {/* // <Route exact path="/" element={< />} /> */}
         {/* // <Route exact path="/" element={< />} /> */}
         {/* // <Route exact path="/" element={< />} /> */}
