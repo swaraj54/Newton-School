@@ -38,6 +38,8 @@ import CounterAppClass from './components/06-05-2023/CounterAppClass';
 import ConstructorClass from './components/06-05-2023/ConstructorClass';
 import ComponentDidMount from './components/06-05-2023/ComponentDidMount';
 import ShouldComponentUpdate from './components/06-05-2023/ShouldComponentUpdate';
+import RegistrationByClassCompo from './components/07-05-2023/RegistrationByClassCompo';
+import PracticeRegistrationClass from './components/07-05-2023/PracticeRegistrationClass';
 
 function App() {
 
@@ -72,6 +74,7 @@ function App() {
         <Route exact path="/Forms-expert" element={<FormsExpert />} />
         <Route exact path="/validation-react" element={<ValidationReact />} />
         <Route exact path="/Practice-validation-react" element={<PracticeValidationReact />} />
+
         <Route exact path="/first-class-component" element={<FirstClassComponent />} />
         <Route exact path="/props-class-component" element={<PropsClassComponent name="Newton School" age="10" />} />
         <Route exact path="/dynamic-use-props-class" element={<DynamicUsePropsClass initialCount={5} />} />
@@ -79,8 +82,8 @@ function App() {
         <Route exact path="/Constructor-class" element={<ConstructorClass />} />
         <Route exact path="/component-did-mount" element={<ComponentDidMount />} />
         <Route exact path="/should-component-update" element={<ShouldComponentUpdate />} />
-        {/* // <Route exact path="/" element={< />} /> */}
-        {/* // <Route exact path="/" element={< />} /> */}
+        <Route exact path="/registration-by-class-compo" element={<RegistrationByClassCompo />} />
+        <Route exact path="/Practice-registration-class" element={<PracticeRegistrationClass />} />
         {/* // <Route exact path="/" element={< />} /> */}
         {/* // <Route exact path="/" element={< />} /> */}
         {/* // <Route exact path="/" element={< />} /> */}

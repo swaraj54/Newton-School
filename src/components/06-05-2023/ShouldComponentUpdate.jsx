@@ -12,9 +12,15 @@ export default class ShouldComponentUpdate extends React.Component {
             count: prevState.count + 1
         }));
     }
+
     // useEffect(()=> {},[state])shouldComponentUpdate will not update it will not invokw on very first render
+    // useEffect(() => { }, [stateVarible])
+    // useEfect will execute the code at first render and when stateVarible is changes
+
+    // shouldComponentUpdate only excutes the code when passed state changes
+    // it will not execute the code on very first render ...
     shouldComponentUpdate(nextProps, nextState) {
-        console.log(nextState.count !== this.state.count,"INSIDE should Component Update")
+        console.log(nextState.count !== this.state.count, "INSIDE should Component Update")
         return nextState.count !== this.state.count;
     }
     render() {
