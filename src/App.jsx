@@ -40,6 +40,9 @@ import ComponentDidMount from './components/06-05-2023/ComponentDidMount';
 import ShouldComponentUpdate from './components/06-05-2023/ShouldComponentUpdate';
 import RegistrationByClassCompo from './components/07-05-2023/RegistrationByClassCompo';
 import PracticeRegistrationClass from './components/07-05-2023/PracticeRegistrationClass';
+import Test1 from './components/Test/practiceTest1';
+
+
 
 function App() {
 
@@ -84,7 +87,7 @@ function App() {
         <Route exact path="/should-component-update" element={<ShouldComponentUpdate />} />
         <Route exact path="/registration-by-class-compo" element={<RegistrationByClassCompo />} />
         <Route exact path="/Practice-registration-class" element={<PracticeRegistrationClass />} />
-        {/* // <Route exact path="/" element={< />} /> */}
+        <Route exact path="/test" element={<Test1 />} />
         {/* // <Route exact path="/" element={< />} /> */}
         {/* // <Route exact path="/" element={< />} /> */}
 
