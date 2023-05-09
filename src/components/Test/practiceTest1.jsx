@@ -53,8 +53,6 @@ const Test1 = () => {
         }
         {flagForToday && <Today todos={todo} />}
         {flagForSeven && <SevenDay todos={todo} />}
-
-
       </div>
     </div>
   )

@@ -41,6 +41,7 @@ import ShouldComponentUpdate from './components/06-05-2023/ShouldComponentUpdate
 import RegistrationByClassCompo from './components/07-05-2023/RegistrationByClassCompo';
 import PracticeRegistrationClass from './components/07-05-2023/PracticeRegistrationClass';
 import Test1 from './components/Test/practiceTest1';
+import Todo from './components/todo-09-05-2023/Todo';
 
 
 
@@ -50,6 +51,7 @@ function App() {
     <div className="App">
       <Navbar />
       <Routes>
+        <Route exact path="/test" element={<Test1 />} />
         <Route exact path='/' element={<Home />} />
         <Route exact path='/login' element={<Login />} />
         <Route exact path='/register' element={<Register />} />
@@ -87,8 +89,8 @@ function App() {
         <Route exact path="/should-component-update" element={<ShouldComponentUpdate />} />
         <Route exact path="/registration-by-class-compo" element={<RegistrationByClassCompo />} />
         <Route exact path="/Practice-registration-class" element={<PracticeRegistrationClass />} />
-        <Route exact path="/test" element={<Test1 />} />
-        {/* // <Route exact path="/" element={< />} /> */}
+
+        <Route exact path="/todo" element={<Todo />} />
         {/* // <Route exact path="/" element={< />} /> */}
 
       </Routes>
