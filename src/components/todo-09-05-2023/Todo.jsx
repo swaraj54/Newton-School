@@ -56,12 +56,6 @@ const Todo = () => {
 
                     </>
                 }
-                {/* {todos && todos.map((e, i) => (
-                    <div key={i}>
-                        <h3>Todo - {e.todo}</h3>
-                        <h4>Date -{e.date}</h4>
-                    </div>
-                ))} */}
                 {todos.length > 0 && !flagForToday && !flagForSeven && <Inbox todos={todos} />}
                 {!!flagForToday && <TodayComponent todos={todos} />}
                 {!!flagForSeven && <Next7Days todos={todos} />}

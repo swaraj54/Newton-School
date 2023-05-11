@@ -2,6 +2,7 @@ import logo from './logo.svg';
 // import './App.css';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
+// import Login from './components/11-05/Login'
 
 import { Route, Routes } from 'react-router-dom';
 import Home from './components/Home';
@@ -42,6 +43,9 @@ import RegistrationByClassCompo from './components/07-05-2023/RegistrationByClas
 import PracticeRegistrationClass from './components/07-05-2023/PracticeRegistrationClass';
 import Test1 from './components/Test/practiceTest1';
 import Todo from './components/todo-09-05-2023/Todo';
+import ButtonAction from './components/11-05/ButtonAction';
+import FeedbackForm from './components/11-05/FeedbackForm';
+import Quote from './components/11-05/Quote';
 
 
 
@@ -91,6 +95,11 @@ function App() {
         <Route exact path="/Practice-registration-class" element={<PracticeRegistrationClass />} />
 
         <Route exact path="/todo" element={<Todo />} />
+        <Route exact path="/button-action" element={<ButtonAction />} />
+        <Route exact path="/feedback-form" element={<FeedbackForm />} />
+        <Route exact path="/quote" element={<Quote />} />
+        {/* // <Route exact path="/" element={< />} /> */}
+        {/* // <Route exact path="/" element={< />} /> */}
         {/* // <Route exact path="/" element={< />} /> */}
 
       </Routes>
