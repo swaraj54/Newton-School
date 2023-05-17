@@ -46,6 +46,11 @@ import Todo from './components/todo-09-05-2023/Todo';
 import ButtonAction from './components/11-05/ButtonAction';
 import FeedbackForm from './components/11-05/FeedbackForm';
 import Quote from './components/11-05/Quote';
+import NotFound from './components/14-05/NotFound';
+import Api from './components/14-05/Api';
+import GetRequestClass from './components/14-05/GetRequestClass';
+import Loader from './components/14-05/Loader';
+import PostRequest from './components/16-05/PostRequest';
 
 
 
@@ -98,6 +103,11 @@ function App() {
         <Route exact path="/button-action" element={<ButtonAction />} />
         <Route exact path="/feedback-form" element={<FeedbackForm />} />
         <Route exact path="/quote" element={<Quote />} />
+        {/* <Route element={<NotFound />} /> */}
+        <Route exact path="/Api" element={<Api />} />
+        <Route exact path="/GetRequestClass" element={<GetRequestClass />} />
+        <Route exact path="/loader" element={<Loader />} />
+        <Route exact path="/post-request" element={<PostRequest />} />
         {/* // <Route exact path="/" element={< />} /> */}
         {/* // <Route exact path="/" element={< />} /> */}
         {/* // <Route exact path="/" element={< />} /> */}
