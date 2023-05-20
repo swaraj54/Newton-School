@@ -13,7 +13,7 @@ const Ref = () => {
     //     </div>
     // );
 
-    const [value, setValue] = useState('Swaraj');
+    const [value, setValue] = useState('');
     const prevState = useRef("");
     // const [prevStateInsideState, setPrevStateInsideState] = useState("");
     useEffect(() => {
@@ -31,7 +31,7 @@ const Ref = () => {
             {/* <h2>  state:  {prevStateInsideState}</h2> */}
             <h2> current state: {value}</h2>
             <input type="text" value={value} onChange={(e) => setValue(e.target.value)} />
-            <button>Submit!!</button>
+            <button type='submit'>Submit!!</button>
         </form>
     );
 }

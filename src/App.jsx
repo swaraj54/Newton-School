@@ -53,8 +53,9 @@ import Loader from './components/14-05/Loader';
 import PostRequest from './components/16-05/PostRequest';
 import Ref from './components/18-05/Ref';
 import ForwardRefs from './components/18-05/ForwardRefs';
-import Memo from './components/Test/Memo';
-import Callback from './components/Test/Callback';
+import Memo from './components/20-05-2023/Memo';
+import PracticeMemo from './components/20-05-2023/PracticeMemo';
+
 
 
 
@@ -114,10 +115,10 @@ function App() {
         <Route exact path="/post-request" element={<PostRequest />} />
         <Route exact path="/ref" element={<Ref />} />
         <Route exact path="/forward-refs" element={<ForwardRefs />} />
-          {/* // <Route exact path="/" element={< />} /> */ }
-          {/* // <Route exact path="/" element={< />} /> */ }
-          {/* // <Route exact path="/" element={< />} /> */ }
-          {/* // <Route exact path="/" element={< />} /> */ }
+        <Route exact path="/memo" element={<Memo />} />
+        <Route exact path="/use-memo" element={<PracticeMemo />} />
+        {/* // <Route exact path="/" element={< />} /> */}
+        {/* // <Route exact path="/" element={< />} /> */}
 
       </Routes>
 
