@@ -55,6 +55,10 @@ import Ref from './components/18-05/Ref';
 import ForwardRefs from './components/18-05/ForwardRefs';
 import Memo from './components/20-05-2023/Memo';
 import PracticeMemo from './components/20-05-2023/PracticeMemo';
+import Calls from './components/21-05/Calls';
+import Reducer from './components/21-05/Reducer';
+import Batching from './components/21-05/Batching';
+import AnotherReducer from './components/21-05/AnotherReducer';
 
 
 
@@ -117,8 +121,11 @@ function App() {
         <Route exact path="/forward-refs" element={<ForwardRefs />} />
         <Route exact path="/memo" element={<Memo />} />
         <Route exact path="/use-memo" element={<PracticeMemo />} />
-        {/* // <Route exact path="/" element={< />} /> */}
-        {/* // <Route exact path="/" element={< />} /> */}
+
+        <Route exact path="/calls" element={<Calls />} />
+        <Route exact path="/reducer" element={<Reducer />} />
+        <Route exact path="/pract-reducer" element={<AnotherReducer />} />
+        <Route exact path="/batching" element={<Batching />} />
 
       </Routes>
 
