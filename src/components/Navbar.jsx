@@ -3,7 +3,8 @@ import './../App.css';
 
 const Navbar = () => {
     return (
-        <div>Navbar of Newton School</div>
+        <div >Navbar of Newton School 
+        </div>
     )
 }
 

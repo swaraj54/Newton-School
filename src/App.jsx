@@ -59,6 +59,7 @@ import Calls from './components/21-05/Calls';
 import Reducer from './components/21-05/Reducer';
 import Batching from './components/21-05/Batching';
 import AnotherReducer from './components/21-05/AnotherReducer';
+import Test from './components/23-05/Test';
 
 
 
@@ -126,6 +127,7 @@ function App() {
         <Route exact path="/reducer" element={<Reducer />} />
         <Route exact path="/pract-reducer" element={<AnotherReducer />} />
         <Route exact path="/batching" element={<Batching />} />
+        <Route exact path="/portal" element={<Test />} />
 
       </Routes>
 
